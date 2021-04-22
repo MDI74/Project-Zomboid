@@ -1,0 +1,427 @@
+*{
+    box-sizing: border-box;
+} 
+body{
+    background-color:#0E0E0E ;
+}
+.container-header{
+    width: 100%;
+    height:110px;
+    background-color:rgba(0, 0, 0, 1);
+}
+
+.container-content{
+    width: 75%;
+    height: 110px;
+    margin: 0 auto;
+}
+.container-title{
+    width: 100%;
+    height: auto;
+    margin-bottom: 120px;
+}
+.logo{
+    width: 135px;
+    height:110px;
+    float: left;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text-header{
+    font-size: 28px;
+    font-family: Elmessiri-medium;
+    font-weight: 700px; 
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 110px;
+    cursor:pointer;
+}
+
+.text-header:hover {
+    color: rgba(185, 9, 47, 1);
+    transform: scale(1.1)
+}
+
+.text-buy{
+    cursor:pointer;
+    height: 68px;
+    font-size: 30px;
+    font-family: Elmessiri-medium;
+    line-height: 110px;
+    color: rgba(185, 9, 47, 1);
+    float: right;
+    text-decoration: none;
+    border-bottom:  solid 1px rgba(255, 255, 255, 1); 
+}
+
+.text-buy:hover {
+    color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+    border-bottom:  solid 3px rgba(185, 9, 47, 1); 
+} 
+
+.title{
+    width: 100%;
+    height: 630px;
+}
+.container-text-title{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 425px;
+    height: 318px;
+    top: 230px;
+    margin-bottom: 120px;
+}
+.text-main-title{
+    font-family: Elmessiri-medium;
+    font-size: 36px;
+    text-align:center;
+    margin-top: 50px;
+    color:#FFFFFF;
+    
+}
+.text-title{
+    font-family: ProstoOne-Regular;
+    color:#FFFFFF;
+    font-size: 24px;
+    text-align:center;
+    margin-top: 80px;
+    width: 420px;
+}
+.container-body{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+.text-bodys{
+    font-family: ProstoOne-Regular;
+    color: rgba(185, 9, 47, 1);
+    font-size: 32px;
+    text-align: center;
+}
+.container-content-body{
+    width: 1060px;
+    height: auto;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-bottom: 42px;
+}
+
+.image-content{
+    width: 436px;
+    height: 289px;
+    float: left;
+    border-right:   1px solid #444444; padding-right: 75px;
+}
+
+.text-content-body{
+    font-family: ProstoOne-Regular;
+    color: #FFFFFF;
+    font-size: 26px;
+    text-align: left;
+    margin-top: 40px;
+    width: 350px;  
+}
+.container-input{
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 30px;
+}
+
+.input{
+    width: 375px;
+    height: 43px;
+    margin-top: 25px;
+    border-radius: 10px;
+   
+}
+.input-question{
+    width: 375px;
+    height: 78px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.text-button{
+    font-family: ProstoOne-Regular;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+
+}
+.button{
+    width: 172px;
+    height: 43px;
+    border-radius: 10px;
+    background-color: rgba(185, 9, 47, 1);
+    border: solid 0px;
+    margin-top: 38px;
+    margin-bottom: 15px;
+}
+.symbol{
+   margin-top: 40px;
+}
+
+.symbol:hover {
+    transform: scale(1.3);
+} 
+.footer{
+    margin-top:60px;
+    width: 100%;
+    height: 70px;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.text-footer{
+    font-family: ProstoOne-Regular;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+@media only screen and (max-width:1280px){
+    .container-header{
+        height:96px;
+    }
+    .logo{
+        width: 88px;
+        height: 95px;
+    }
+    .text-header{
+        font-size: 22px;
+        line-height: 100px;
+    }
+    .text-buy{
+        font-size: 24px;
+        height: 65px;
+        line-height: 100px;
+    }
+    .image-content{
+        width: 300px;
+        height: 182px;
+        border-right:   1px solid #444444; float: 35px;
+    }
+    .text-content-body{
+        font-size: 16px;
+        margin-top: 30px;
+        width: 230px; 
+        margin-left: 15px;
+    }
+    .text-bodys{
+        font-size: 20px;
+    }
+    .container-content-body{
+        width: 100%;
+    }
+    .input{
+        width: 315px;
+       
+    }
+    .input-question{
+        width: 315px;
+    }
+}
+@media only screen and (max-width:992px){
+    .container-header{
+        height:61px;
+    }
+    .logo{
+        width: 62px;
+        height: 60px;
+    }
+    .text-header{
+        font-size: 20px;
+        line-height: 65px;
+    }
+    .text-buy{
+        font-size: 21px;
+        height: 45px;
+        line-height: 65px;
+    }
+    .container-text-title{
+        width: 281px;
+        height: 197px;
+        top: 180px;
+    }
+    .text-main-title{
+        font-size: 30px;   
+    }
+    .text-title{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .input{
+        width: 255px;
+        height: 40px;
+       
+    }
+    .input-question{
+        width: 255px;
+        height: 75px;
+    }
+    .text-button{
+        font-size: 20px;
+    }
+    .text-footer{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:767px){
+    .container-header{
+        height:45px;
+    }
+    .logo{
+        width: 45px;
+        height: 45px;
+    }
+    .text-header{
+        font-size: 14px;
+        line-height: 45px;
+    }
+    .text-buy{
+        font-size: 15px;
+        height: 32px;
+        line-height: 45px;
+    }
+    .title{
+        height: 570px;
+    }
+    .image-content{
+        width: 215px;
+        height: 125px;
+        border-right:   1px solid #444444; padding-right: 45px;
+    }
+    .text-content-body{
+        font-size: 12px;
+        margin-top: 30px;
+        width: 188px; 
+        margin-left: 10px; 
+    }
+    .text-bodys{
+        font-size: 16px;
+    }
+    .input{
+        width: 300px;
+        height: 40px;
+       
+    }
+    .input-question{
+        width:300px;
+        height: 75px;
+    }
+    .text-button{
+        font-size: 20px;
+    }
+    .text-footer{
+        font-size: 9px;
+    }
+    .container-input{
+        margin: 0 auto;
+    }
+    .symbol{
+       display: none;
+     }
+}
+
+@media only screen and (max-width:576px){
+    .container-header{
+        height:29px;
+    }
+    .logo{
+        width: 29px;
+        height: 29px;
+    }
+    .text-header{
+        font-size: 11px;
+        line-height: 32px;
+    }
+    .text-buy{
+        font-size: 12px;
+        height: 22px;
+        line-height: 32px;
+    }
+    .container-content-body{
+        width: 330px;
+    }
+    .title{
+        width: 100%;
+        height: 370px;
+    }
+    .container-text-title{
+        width: 216px;
+        height: 137px;
+        top: 130px;
+    }
+    .text-main-title{
+        font-size: 22px; 
+        margin-top: 30px;  
+    }
+    .text-title{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .image-content{
+        width: 135px;
+        height: 87px;
+        border-right:   1px solid #444444; padding-right: 15px;
+    }
+    .text-content-body{
+        font-size: 8px;
+        margin-top: 12px;
+        width: 120px; 
+        margin-left: 5px; 
+    }
+    .text-bodys{
+        font-size: 11px;
+    }
+    .input{
+        width: 200px;
+        height: 40px;
+       
+    }
+    .input-question{
+        width:200px;
+        height: 75px;
+    }
+    .text-footer{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width:330px){
+    .text-header{
+        font-size: 8px;
+        line-height: 28px;
+    }
+    .container-content-body{
+        width: 100%;
+    }
+    .text-buy{
+        font-size: 9px;
+        height: 20px;
+        line-height: 28px;
+    }
+    .image-content{
+        width: 108px;
+        height: 75px;
+        border-right:   1px solid #444444; padding-right: 10px;
+    }
+    .text-content-body{
+        position: absolute;
+        right: 40px;
+        font-size: 7px;
+        margin-top: 10px;
+        width: 95px; 
+    }
+    .text-footer{
+        font-size: 7px;
+    }
+}
